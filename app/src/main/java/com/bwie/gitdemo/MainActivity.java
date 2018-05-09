@@ -1,10 +1,7 @@
 package com.bwie.gitdemo;
 
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-
-import com.example.kson.common.Utils;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,9 +9,29 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        initView();
+        initData();
 
-//        ActionBar
+        //
 
-        Utils.fun();
+
+
+
+        //下载文件
+        downloadFile();
+
+    }
+
+    private void downloadFile() {
+
+
+    }
+
+    private void initData() {
+
+    }
+
+    private void initView() {
+
     }
 }
