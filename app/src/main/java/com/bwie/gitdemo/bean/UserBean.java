@@ -7,4 +7,5 @@ package com.bwie.gitdemo.bean;
  * Description:
  */
 public class UserBean {
+  private String name;
 }
